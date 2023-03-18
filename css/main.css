@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+h1,h2,h3,h4{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 1260px;
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+}
+
+.site__list {
+    display: flex;
+    align-items: center;
+}
+
+.site__item {
+    padding-left: 30px;
+
+}
+
+.site__link {
+    text-decoration: none;
+    color: #1f153480;
+}
+
+.active__link {
+    text-decoration: none;
+    color: #1f1534;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    background-color: #ffa500;
+}
+
+.box__item {
+    width: 490px;
+    margin-left: 137px;
+
+}
+
+.box__item__title {
+    font-size: 70px;
+    color: #000000;
+    color: #fff;
+}
+
+
+.box__item__desc {
+    display: inline;
+    font-size: 21px;
+    line-height: 32px;
+    padding: 20px;
+    color: #7D7987;
+}
+
+.box__desc {
+    display: block;
+    width: 1200px;
+    height: 2px;
+    background: #000000;
+    border-radius: 5px;
+    margin-left:75px;
+}
+
+
+.leading {
+    padding: 50px;
+    color: #808080;
+
+}
+
+.box__outline__desc {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #808080;
+}
+
+.box__outlene {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #7D7987;
+
+
+}
+
+.holder__pic {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+
+}
+
+.holder__title {
+    font-size: 16px;
+    line-height: 28px;
+    color: #7D7987;
+
+}
+
+.holder__text {
+    font-size: 24px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.inner__box {
+    width: 400px;
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px #e5e9f666;
+    border-radius: 20px;
+}
+.box__inner{
+    border: 1px solid blue ;
+    width: 400px;
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 40px;   
+}
